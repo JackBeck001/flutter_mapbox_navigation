@@ -26,7 +26,8 @@ apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
-    compileSdkVersion 33
+    namespace 'com.eopeter.fluttermapboxnavigationexample'
+    compileSdkVersion 34
     ndkVersion flutter.ndkVersion
 
     sourceSets {
@@ -64,7 +65,7 @@ android {
     lint {
         disable 'InvalidPackage'
     }
-    namespace 'com.eopeter.fluttermapboxnavigationexample'
+    
 }
 
 flutter {

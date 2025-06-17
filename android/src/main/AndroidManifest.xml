@@ -6,7 +6,9 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application>
-        <activity android:name="com.eopeter.fluttermapboxnavigation.activity.NavigationActivity" />
+        <activity android:name="com.eopeter.fluttermapboxnavigation.activity.NavigationActivity"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        />
     </application>
 
 </manifest>

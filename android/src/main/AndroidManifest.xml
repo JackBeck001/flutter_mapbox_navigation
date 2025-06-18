@@ -7,7 +7,6 @@
 
     <application>
         <activity android:name="com.eopeter.fluttermapboxnavigation.activity.NavigationActivity"
-        android:theme="@style/Theme.AppCompat.NoActionBar"
         />
     </application>
 
